@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/PersonalWebsite2/static/css/main.e393a531.chunk.css",
+    "main.js": "/PersonalWebsite2/static/js/main.10dddf83.chunk.js",
+    "main.js.map": "/PersonalWebsite2/static/js/main.10dddf83.chunk.js.map",
+    "runtime-main.js": "/PersonalWebsite2/static/js/runtime-main.2910f718.js",
+    "runtime-main.js.map": "/PersonalWebsite2/static/js/runtime-main.2910f718.js.map",
+    "static/js/2.c916ff79.chunk.js": "/PersonalWebsite2/static/js/2.c916ff79.chunk.js",
+    "static/js/2.c916ff79.chunk.js.map": "/PersonalWebsite2/static/js/2.c916ff79.chunk.js.map",
+    "index.html": "/PersonalWebsite2/index.html",
+    "static/css/main.e393a531.chunk.css.map": "/PersonalWebsite2/static/css/main.e393a531.chunk.css.map",
+    "static/js/2.c916ff79.chunk.js.LICENSE.txt": "/PersonalWebsite2/static/js/2.c916ff79.chunk.js.LICENSE.txt",
+    "static/media/Voltaire_Resume_updated1.d280e059.pdf": "/PersonalWebsite2/static/media/Voltaire_Resume_updated1.d280e059.pdf",
+    "static/media/prof_profile.570f535d.jpg": "/PersonalWebsite2/static/media/prof_profile.570f535d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2910f718.js",
+    "static/js/2.c916ff79.chunk.js",
+    "static/css/main.e393a531.chunk.css",
+    "static/js/main.10dddf83.chunk.js"
+  ]
+}
