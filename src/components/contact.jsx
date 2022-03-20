@@ -41,7 +41,7 @@ export const Contact = (props) => {
               <div className='section-title'>
                 <h2>Get In Touch</h2>
                 <p>
-                  Please fill out the form below to send us an email and we will
+                  Please fill out the form below to send me an email and I'll
                   get back to you as soon as possible.
                 </p>
               </div>
@@ -121,26 +121,34 @@ export const Contact = (props) => {
                 {props.data ? props.data.email : 'loading'}
               </p>
             </div>
+            <div className='contact-item'>
+              <p>
+                <span>
+                  <i class="fa-brands fa-github"></i> Github
+                </span>{' '}
+                <a href={"https://github.com/jv11699"} style={{color:"rgba(255, 255, 255, 0.75)"}}> github.com/jv11699</a>
+              </p>
+            </div>
           </div>
           <div className='col-md-12'>
             <div className='row'>
               <div className='social'>
                 <ul>
                   <li>
-                    <a href={props.data ? props.data.facebook : '/'}>
-                      <i className='fa fa-facebook'></i>
+                    <a href={"https://www.instagram.com/voltxxczz/"}>
+                      <i className='fa fa-instagram'></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.twitter : '/'}>
+                    <a href={"https://twitter.com/voltairevergara"}>
                       <i className='fa fa-twitter'></i>
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href={props.data ? props.data.youtube : '/'}>
                       <i className='fa fa-youtube'></i>
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -150,9 +158,9 @@ export const Contact = (props) => {
       <div id='footer'>
         <div className='container text-center'>
           <p>
-            &copy; 2020 Issaaf Kattan React Land Page Template. Design by{' '}
-            <a href='http://www.templatewire.com' rel='nofollow'>
-              TemplateWire
+            Of course, with the help of Issaaf Kattan template, this webpage of mine wouldn't be possible!
+            <a href='https://github.com/issaafalkattan/React-Landing-Page-Template' rel='nofollow'>
+              &copy;Explore his Github!
             </a>
           </p>
         </div>

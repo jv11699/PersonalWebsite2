@@ -1,3 +1,4 @@
+
 body,
 html {
   font-family: "Open Sans", sans-serif;
@@ -203,6 +204,10 @@ a:focus,
   outline: none;
   outline-offset: none;
 }
+#about-me-img{
+  box-shadow: 10px 500px 500px red;
+  z-index: 9999999;
+}
 /* Header Section */
 .intro {
   display: table;
@@ -213,7 +218,9 @@ a:focus,
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+  position: relative;
   -o-background-size: cover;
+ 
 }
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
@@ -221,7 +228,7 @@ a:focus,
 .intro h1 {
   font-family: "Raleway", sans-serif;
   color: #fff;
-  font-size: 82px;
+  font-size: 55px;
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 0;
@@ -232,15 +239,19 @@ a:focus,
   color: #5ca9fb;
 }
 .intro p {
-  color: #fff;
+  color: rgb(247, 247, 247);
   font-size: 22px;
-  font-weight: 300;
+  font-weight: 1000;
   line-height: 30px;
   margin: 0 auto;
   margin-bottom: 60px;
+  -webkit-text-stroke: .5px black; /* width and color */
+
+  font-family: Arial, Helvetica, sans-serif; color: rgb(255, 255, 255);
 }
 header .intro-text {
-  padding-top: 350px;
+  padding-top: 150px;
+  -webkit-text-stroke: .5px black; /* width and color */
   padding-bottom: 200px;
   text-align: center;
 }
@@ -300,8 +311,8 @@ header .intro-text {
   width: 520px;
   margin-top: 10px;
   background: #fff;
-  border-right: 0;
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
+  border: #333 solid 3px;
+  box-shadow: 500px 50px 50px rgba(0, 0, 0, 0.06);
 }
 #about p {
   line-height: 24px;
@@ -355,8 +366,14 @@ header .intro-text {
   padding: 100px 0;
 }
 .portfolio-item {
+  height: 300px;
+  width: fit-content;
   margin: 1px -15px 0 -14px;
   padding: 0;
+}
+.portfolio-item img{
+  height: 300px;
+  width: 400px;
 }
 .portfolio-item .hover-bg {
   overflow: hidden;

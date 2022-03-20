@@ -1,68 +1,51 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Welcome",
+    "paragraph": "My Name is Voltaire Vergara, I have background in Software Engineering and Data Science!"
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "highly disciplined individual with a growth mindset to face any adversity and intellectual curiosity to find solutions. Thus, I have the equanimity and focus to handle the responsibility of being a technologist, especially roles involving Data Science and Software Engineering.  Currently, I have already finished my degree in Computer Science and minor in Statistics during December of 2021 at the University at Buffalo. Because of my background in these fields, I am familiar with the fundamental theories and concepts that data scientists and software engineers employ.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Data Science",
+      "Software Engineering",
+      "Front-End",
+      "Back-End"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Artificial Intelligence",
+      "Statistics",
+      "Design",
+      "Algorithms"
     ]
   },
   "Gallery": [
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "title": "GeoAnnotator Tool",
+      "largeImage": "img/portfolio/geoannotator.gif",
+      "smallImage": "img/portfolio/geoannotator.gif"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "title": "Foodsomnia",
+      "largeImage": "img/portfolio/foodsomnia.PNG",
+      "smallImage": "img/portfolio/foodsomnia.PNG",
+      "url":"https://github.com/CSE442-Foodsomnia/Foodsomnia_website"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "title": "Research Paper",
+      "largeImage": "img/portfolio/research_document.pdf", 
+      "smallImage": "img/portfolio/research.PNG"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
+      "title": "Data Intensive Computing",
+      "largeImage": "img/portfolio/dataintensive.PNG",
+      "smallImage": "img/portfolio/dataintensive.PNG",
+      "url":"https://github.com/jv11699/DataIntensiveComputing/blob/main/phase3.ipynb"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "title": "Early Warning Monitoring System",
+      "largeImage": "img/portfolio/moran.png",
+      "smallImage": "img/portfolio/moran.png",
+      "url": "https://github.com/jv11699/Early-Warning-Monotoring-System"
     }
   ],
   "Services": [
@@ -152,11 +135,12 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
+    "address": "51 Amundsen Ln, New City New York",
+    "phone": "+1 845 300 0507",
+    "email": "jv11699@gmail.com",
+    "github": "https://github.com/jv11699",
     "facebook": "fb.com",
-    "twitter": "twitter.com",
+    "twitter": "twitter.com/voltairevergara",
     "youtube": "youtube.com"
   },
   "Features": [
